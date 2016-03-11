@@ -67,7 +67,7 @@ class LoginController extends Controller {
                 'codestring' => '',
                 'apiver'=> 'v3',
                 'safeflg'=> 0,
-                'u' => 'https://passport.baidu.com/',											
+                'u' => 'https://passport.baidu.com/',
                 'isPhone' =>false,
                 'detect' =>1,
                 'quick_user'=>0,
@@ -83,7 +83,7 @@ class LoginController extends Controller {
     //             'gid'   =>$gid,
                 'callback' => 'parent.bd__pcbs__yzk837'
             );
-    // edump($params);        
+//     edump($params);
             $url4 = 'https://passport.baidu.com/v2/api/?login';
             $data4 = $curlObj->post($url4, $params, $cookie_jar);
     // edump($data4);
