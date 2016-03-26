@@ -1,0 +1,1195 @@
+[ 2016-03-26T17:00:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:00:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:00:41+08:00 ] 127.0.0.1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:login
+
+[ 2016-03-26T17:01:07+08:00 ] 127.0.0.1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:login
+
+[ 2016-03-26T17:01:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:01:14+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:02:40+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-26T17:05:16+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:05:27+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.030000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua'  [ RunTime:0.001000s ]
+SQL: UPDATE `tp_admin` SET `username`='xiaogangshagua',`password`='hadoop123',`time`=1458983127,`ip`='127.0.0.1',`loginnum`=11 WHERE `id` = 1 [ RunTime:0.030000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:05:28+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:06:21+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:06:24+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua'  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_admin` (`username`,`password`,`time`,`ip`,`loginnum`) VALUES ('xiaogangshagua','hadoop123',1458983184,'127.0.0.1',1) [ RunTime:0.055000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:06:25+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:07:04+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 57 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.018000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua'  [ RunTime:0.000000s ]
+SQL: UPDATE `tp_admin` SET `username`='xiaogangshagua',`password`='hadoop123',`time`=1458983224,`ip`='127.0.0.1',`loginnum`=2 WHERE `id` = 3 [ RunTime:0.050000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-03-26T17:07:05+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:08:25+08:00 ] 127.0.0.1 /index.php/Home/Tieba/getTieBa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:username
+
+[ 2016-03-26T17:08:55+08:00 ] 127.0.0.1 /index.php/Home/Tieba/getTieBa/username/xiaogangshagua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_tieba` [ RunTime:0.016000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('地下城与勇士','1f16f6fe98db1d5d3573cba1d1276a33','http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',144,6,1458983332,3) [ RunTime:0.048000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('java','93f725a07423fe1c889f448b33d21f46','http://tieba.baidu.com/f?kw=java',97,5,1458983332,3) [ RunTime:0.049000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('php','e1bfd762321e409cee4ac0b6e841963c','http://tieba.baidu.com/f?kw=php',93,5,1458983332,3) [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('李毅','b4e9c7d9986d00ec26e0562ea336ac05','http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',77,5,1458983332,3) [ RunTime:0.028000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('动漫','174f9fd3c0b57206c60e357d4c677315','http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',33,4,1458983332,3) [ RunTime:0.029000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('英雄联盟','54838a6bbae2a14b0fb0c7905f6a070a','http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',7,2,1458983332,3) [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tp_tieba` (`name`,`md5name`,`url`,`jingyan`,`level`,`time`,`userid`) VALUES ('dnf召唤师','280f4c4d5a73169da9e288f28a22ca58','http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',3,1,1458983332,3) [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.050000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.019000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.029000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.136000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.089000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.037000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.063000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.028000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.025000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.019000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.040000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.028000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.066000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.039000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.039000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.028000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.019000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.035000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.019000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.046000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.049000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.082000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.055000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.039000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.073000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.042000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.036000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.029000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983332,`userid`=3 WHERE `id` = 1 [ RunTime:0.025000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 2 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 3 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983332,`userid`=3 WHERE `id` = 4 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983332,`userid`=3 WHERE `id` = 5 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983332,`userid`=3 WHERE `id` = 6 [ RunTime:0.036000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983332,`userid`=3 WHERE `id` = 7 [ RunTime:0.020000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Controller.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-26T17:09:00+08:00 ] 127.0.0.1 /index.php/Home/Tieba/getTieBa/username/xiaogangshagua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_tieba` [ RunTime:0.016000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.037000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.039000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.028000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.010000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.034000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.038000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.024000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.074000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.037000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.043000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.029000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.043000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.028000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.020000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.029000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.024000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.029000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.022000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.030000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.025000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.031000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.030000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.026000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '1f16f6fe98db1d5d3573cba1d1276a33' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='地下城与勇士',`md5name`='1f16f6fe98db1d5d3573cba1d1276a33',`url`='http://tieba.baidu.com/f?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF',`jingyan`=144,`level`=6,`time`=1458983337,`userid`=3 WHERE `id` = 1 [ RunTime:0.031000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '93f725a07423fe1c889f448b33d21f46' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='java',`md5name`='93f725a07423fe1c889f448b33d21f46',`url`='http://tieba.baidu.com/f?kw=java',`jingyan`=97,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 2 [ RunTime:0.021000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'e1bfd762321e409cee4ac0b6e841963c' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='php',`md5name`='e1bfd762321e409cee4ac0b6e841963c',`url`='http://tieba.baidu.com/f?kw=php',`jingyan`=93,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 3 [ RunTime:0.027000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = 'b4e9c7d9986d00ec26e0562ea336ac05' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='李毅',`md5name`='b4e9c7d9986d00ec26e0562ea336ac05',`url`='http://tieba.baidu.com/f?kw=%C0%EE%D2%E3',`jingyan`=77,`level`=5,`time`=1458983337,`userid`=3 WHERE `id` = 4 [ RunTime:0.038000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '174f9fd3c0b57206c60e357d4c677315' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='动漫',`md5name`='174f9fd3c0b57206c60e357d4c677315',`url`='http://tieba.baidu.com/f?kw=%B6%AF%C2%FE',`jingyan`=33,`level`=4,`time`=1458983337,`userid`=3 WHERE `id` = 5 [ RunTime:0.025000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '54838a6bbae2a14b0fb0c7905f6a070a' AND `userid` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_tieba` SET `name`='英雄联盟',`md5name`='54838a6bbae2a14b0fb0c7905f6a070a',`url`='http://tieba.baidu.com/f?kw=%D3%A2%D0%DB%C1%AA%C3%CB',`jingyan`=7,`level`=2,`time`=1458983337,`userid`=3 WHERE `id` = 6 [ RunTime:0.022000s ]
+SQL: SELECT * FROM `tp_tieba` WHERE `md5name` = '280f4c4d5a73169da9e288f28a22ca58' AND `userid` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_tieba` SET `name`='dnf召唤师',`md5name`='280f4c4d5a73169da9e288f28a22ca58',`url`='http://tieba.baidu.com/f?kw=dnf%D5%D9%BB%BD%CA%A6',`jingyan`=3,`level`=1,`time`=1458983337,`userid`=3 WHERE `id` = 7 [ RunTime:0.066000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:09:01+08:00 ] 127.0.0.1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:09:01+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-26T17:17:55+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 49 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua'  [ RunTime:0.022002s ]
+SQL: UPDATE `tp_admin` SET `username`='xiaogangshagua',`password`='hadoop123',`time`=1458983875,`ip`='127.0.0.1',`loginnum`=3 WHERE `id` = 3 [ RunTime:0.034003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:17:56+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:18:16+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 49 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = '13913854016'  [ RunTime:0.001000s ]
+SQL: INSERT INTO `tp_admin` (`username`,`password`,`time`,`ip`,`loginnum`) VALUES ('13913854016','hadoop123',1458983896,'127.0.0.1',1) [ RunTime:0.061006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-26T17:18:17+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-26T17:21:52+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:21:53+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:21:55+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:21:57+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:21:57+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:22:00+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-26T17:28:01+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:28:05+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 49 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.020002s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua'  [ RunTime:0.000000s ]
+SQL: UPDATE `tp_admin` SET `username`='xiaogangshagua',`password`='hadoop123',`time`=1458984485,`ip`='127.0.0.1',`loginnum`=4 WHERE `id` = 3 [ RunTime:0.047004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-03-26T17:28:06+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-26T17:28:07+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-26T17:28:09+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: url2 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:28:24+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2016-03-26T17:28:44+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: url2 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 132 行.
+
+[ 2016-03-26T17:29:10+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:29:21+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'xiaogangshagua' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:29:33+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:29:34+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:29:42+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 49 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.025003s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = '13913854016'  [ RunTime:0.001000s ]
+SQL: UPDATE `tp_admin` SET `username`='13913854016',`password`='hadoop123',`time`=1458984582,`ip`='127.0.0.1',`loginnum`=2 WHERE `id` = 4 [ RunTime:0.049005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-26T17:29:43+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:29:44+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:29:50+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = '13913854016' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-03-26T17:30:01+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = '13913854016' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:30:39+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = '13913854016' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:31:08+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:31:20+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 1 D:\www\phpstorm\php_BdVlogin\Application\Home\Controller\LoginController.class.php 第 49 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'SwordInaStone'  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_admin` (`username`,`password`,`time`,`ip`,`loginnum`) VALUES ('SwordInaStone','hadoop123',1458984679,'127.0.0.1',1) [ RunTime:0.046004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:31:21+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-26T17:31:27+08:00 ] 127.0.0.1 /index.php/Home/Login/testLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\www\phpstorm\php_BdVlogin\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_admin` WHERE `username` = 'SwordInaStone' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

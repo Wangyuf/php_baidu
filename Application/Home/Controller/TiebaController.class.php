@@ -37,11 +37,10 @@ class TiebaController extends Controller {
      */
     public function gettieba($username){
         header("Content-type:text/html;charset=utf-8");
-//         header("Content-type:text/html;charset=gbk");
         $username = $_GET['username'] ? $_GET['username'] : $username;
         $user = D('Admin')->where(array('username'=>$username))->find();
         if (empty($user)) {
-            $this->error('该用户未登录过系统');
+            $this->error('该用户未登录过系统',U('Login/index'));
         }
         $userid = $user['id'];
         $jarPath = str_replace('\\', '/', dirname(__FILE__)).'/cookieJar/';
@@ -49,20 +48,9 @@ class TiebaController extends Controller {
         $cookie_jar = $jarPath.$jarName;
         $curlObj = new \Vendor\Baidu\CommonCurl();
         
-     /*    $url1 = 'http://tieba.baidu.com/i/fr=home';
-        $data1 = $curlObj->get($url1,$cookie_jar);           
-        preg_match_all('/<a id=\"aside_forum\" st_type=\"aside_forum\" href=\"(.*)\">(.*)<\/a>/U',$data1,$tiebaId);
-        $tiebaIdArr = explode('/',$tiebaId[1][0]); 
-        $tiebaId = intval($tiebaIdArr[2]); */
         for($i=1;$i<10;$i++){
-            $url2 = 'http://tieba.baidu.com/f/like/mylike?&pn='.$i;       
+            $url2 = 'http://tieba.baidu.com/f/like/mylike?&pn='.$i;
             $data2 = $curlObj->get($url2,$cookie_jar,'http://tieba.baidu.com/i/fr=home');
-    // edump($data2);
-    //         <a href="/f?kw=java" title="java">java</a>
-                //经验
-    //         <a class="cur_exp" target="_blank" href="/f/like/level?kw=%B5%D8%CF%C2%B3%C7%D3%EB%D3%C2%CA%BF&amp;lv_t=lv_nav_intro">68</a>
-            //等级
-    //         <div class="like_badge_lv">5</div>
             preg_match_all('/<a href=\"(.*)\" title=\"(.*)\">/U',$data2,$tiebas);
             preg_match_all('/<a class=\"cur_exp\"(.*)>(.*)<\/a>/U',$data2,$jingyan);
             preg_match_all('/<div class=\"like_badge_lv\">(.*)<\/div>/U',$data2,$level);
@@ -75,8 +63,7 @@ class TiebaController extends Controller {
                 $tieba[$k]['level'] = $level[1][$k];
                 $tieba[$k]['time'] = time();
                 $tieba[$k]['userid'] = $userid;
-            }        
-//     edump($tieba);        
+            }
             foreach ($tieba as $k1=>$v1){
                 $result = M('Tieba')->where(array('md5name'=>md5($v1['name']),'userid'=>$v1['userid']))->find();
                 if (empty($result)) {
@@ -86,9 +73,10 @@ class TiebaController extends Controller {
                 }
             }
         }
-        $this->success('常逛贴吧已入库');
-        
+        $this->success('常逛贴吧已入库',U('Tieba/index'));
     }
+    
+    
     
     /**
      * @method 测试贴吧签到
@@ -113,7 +101,7 @@ class TiebaController extends Controller {
             'tbs'=>$tbs,
         );
         $data2 = $curlObj->post($url2,$params,$cookie_jar,$v['url']);
-edump($data2); 
+
     }
     
     /**
@@ -154,9 +142,9 @@ edump($data2);
         $result = M('Tbqd')->where(array('userid'=>$userid,'date'=>$d))->find();
         if (empty($result)) {
             M('Tbqd')->add($data3);
-            $this->success('签到成功');
+            $this->success('签到成功',U('Tieba/index'));
         }else{
-            $this->error('您今日已签到');
+            $this->error('您今日已签到',U('Tieba/index'));
         } 
         
             
